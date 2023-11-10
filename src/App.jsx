@@ -1,21 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
+
 import './App.css'
+import React from 'react';
+function UserPortifolio () {
+  return(
+    <div className='user-portfolio'>
+      <h1>Ann Mukami Kiunga</h1>
+      <h2>Education</h2>
+      <p>Bachelor of Science in Education - Mount Kenya University
+        Student at Azubi Africa learning FrontEnd Development.
+      </p>
+      <h2>Proffesional Background</h2>
+      <p>Secondary School Teacher at Babla Diani Secondary School
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-     
-      <h1>Hello World</h1>
-        <p>
-        I am Ann Mukami Kiunga, this is my first React application
-        </p>
-      
-    </>
+      </p>
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>HTML/CSS</li>
+        <li>Communication Skills</li>
+      </ul>
+    </div>
   )
 }
 
-export default App
+export default UserPortifolio;
+
+ 
