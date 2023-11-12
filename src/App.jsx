@@ -1,31 +1,14 @@
-
-
-
-import './App.css'
 import React from 'react';
-function UserPortifolio () {
-  return(
-    <div className='user-portfolio'>
-      <h1>Ann Mukami Kiunga</h1>
-      <h2>Education</h2>
-      <p>Bachelor of Science in Education - Mount Kenya University
-        Student at Azubi Africa learning FrontEnd Development.
-      </p>
-      <h2>Proffesional Background</h2>
-      <p>Secondary School Teacher at Babla Diani Secondary School
+import Button from './components/Button';
 
-      </p>
-      <h2>Skills</h2>
-      <ul>
-        <li>JavaScript</li>
-        <li>React.js</li>
-        <li>HTML/CSS</li>
-        <li>Communication Skills</li>
-      </ul>
+const App = () => {
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <Button label="Login" />
+      <Button label="Signin" />
     </div>
-  )
-}
+  );
+};
 
-export default UserPortifolio;
+export default App;
 
- 
